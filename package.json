@@ -1,0 +1,23 @@
+{
+	"name": "node-performance-tests",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test-loops": "nodemon loops/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jlarteaga/node-performance-tests.git"
+	},
+	"author": "Jorge Luis Arteaga Almaraz",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jlarteaga/node-performance-tests/issues"
+	},
+	"type": "module",
+	"homepage": "https://github.com/jlarteaga/node-performance-tests#readme",
+	"devDependencies": {
+		"nodemon": "^2.0.16"
+	}
+}
