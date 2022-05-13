@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test-loops": "nodemon loops/index.js"
+		"test-loops": "nodemon loops/long-arrays/index.js",
+		"test-loops-incremental": "nodemon loops/incremental/index.js"
 	},
 	"repository": {
 		"type": "git",
