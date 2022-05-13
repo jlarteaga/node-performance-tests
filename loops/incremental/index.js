@@ -25,6 +25,7 @@ const testForIncrementalArraySize = async (initialSize, finalSize, logFn) => {
 	let currentSize = initialSize < 1 ? 1 : initialSize;
 	try {
 		while (currentSize <= finalSize) {
+			// https://mycurvefit.com/
 			const iterations = Math.round(100000 * Math.pow(currentSize, -0.4519164));
 
 			console.log(currentSize, iterations);

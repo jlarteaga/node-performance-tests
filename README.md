@@ -27,3 +27,9 @@ Better avg time (array.length=300000, 1000 iterations each)
 │    4    │    'forEach'    │ 2.6961149630397556  │  2.342778004705906  │ 3.462535999715328  │       '840.95%'       │
 └─────────┴─────────────────┴─────────────────────┴─────────────────────┴────────────────────┴───────────────────────┘
 ```
+
+## Incremental comparison of performance in loops
+
+```shell
+$ yarn install && yarn test-loops-incremental && yarn test-loops-incremental-chart 
+```

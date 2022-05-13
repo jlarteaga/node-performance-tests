@@ -4,8 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test-loops": "nodemon loops/long-arrays/index.js",
-		"test-loops-incremental": "nodemon loops/incremental/index.js"
+		"test-loops": "node loops/long-arrays/index.js",
+		"test-loops-incremental": "node loops/incremental/index.js",
+		"test-loops-incremental-chart": "node loops/incremental/chart.js"
 	},
 	"repository": {
 		"type": "git",
@@ -20,5 +21,10 @@
 	"homepage": "https://github.com/jlarteaga/node-performance-tests#readme",
 	"devDependencies": {
 		"nodemon": "^2.0.16"
+	},
+	"dependencies": {
+		"csv-parser": "^3.0.0",
+		"d3-node": "^2.2.3",
+		"puppeteer": "13"
 	}
 }

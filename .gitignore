@@ -106,4 +106,4 @@ dist
 # IDEs and editors
 .idea
 
-loops/incremental/stats.csv
+loops/incremental/stats*
