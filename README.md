@@ -33,3 +33,16 @@ Better avg time (array.length=300000, 1000 iterations each)
 ```shell
 $ yarn install && yarn test-loops-incremental && yarn test-loops-incremental-chart 
 ```
+**0-100**
+![stats_0-100](https://user-images.githubusercontent.com/6887018/168231519-1180cdec-f2dc-4f94-b2d6-cced360180a2.svg)
+**100-5,000**
+![stats_100-5000](https://user-images.githubusercontent.com/6887018/168231600-3aad6eda-7304-4b05-b473-b7facdb07053.svg)
+**5,000-100,000**
+![stats_5000-100000](https://user-images.githubusercontent.com/6887018/168231623-d7b73da0-57d5-45d6-bf3d-1c5021d52fbb.svg)
+**100,000-1,000,000**
+![stats_100000-1000000](https://user-images.githubusercontent.com/6887018/168231639-73df0763-903a-4af7-a6f8-12df5e56d7ae.svg)
+**0-1,000,000**
+![stats_0-1000000](https://user-images.githubusercontent.com/6887018/168231908-ee682ccd-fc82-4cef-8ec5-34c77cc918dd.svg)
+
+
+
